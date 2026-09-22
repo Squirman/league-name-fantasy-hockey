@@ -1,0 +1,1107 @@
+.page {
+  margin: 0px;
+  width: 89%;
+  margin-left: 210px;
+  position: relative;
+  top: 47px;
+}
+
+.no-border > td {
+  border: none;
+  width: 141.6px;
+  padding: 5px 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+/* .no-border > .results-spin-count { */
+/* border: 1px solid; */
+/* width: 118px; */
+/* background-color: #feb21a; */
+/* } */
+
+#simulation-count {
+  width: 260px;
+  text-align: right;
+}
+
+/* table test */
+
+.footer-table tfoot tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 20px;
+}
+
+.footer-table tfoot tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 20px;
+}
+
+tfoot {
+  background-color: #0d6dfd8c;
+}
+
+.hidden {
+  display: none;
+}
+
+.odds-tables {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pick-fall {
+  background-color: red;
+}
+
+.pick-rise {
+  background-color: green;
+}
+
+#submit-warning {
+  color: red;
+}
+
+.submit-success {
+  display: none;
+}
+
+.assigned-combinations-tables > table {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tooltip {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 1px dotted black; */
+  cursor: pointer;
+  width: 15px;
+  font-size: 1rem;
+  align-items: center;
+  margin-left: 7px;
+  /* z-index: 0; */
+}
+
+.tooltiptext {
+  /* display: none; */
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border: solid black 3px;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  margin-left: -60px;
+  z-index: 1;
+  left: 25px;
+  cursor: auto;
+}
+
+.bottom-right {
+  top: 150%;
+}
+
+.bottom-right-h3 {
+  top: 85%;
+}
+
+.top-right {
+  bottom: 170%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  z-index: 10;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  /* bottom: 100%;  */
+  left: 35px;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.bottom-right::after,
+.bottom-right-h3::after {
+  bottom: 100%;
+  border-color: transparent transparent black transparent;
+}
+
+.top-right::after {
+  top: 100%;
+  border-color: black transparent transparent transparent;
+}
+
+.question-mark {
+  height: 20px;
+  top: -5px;
+  z-index: 0;
+  /* color: white; */
+}
+
+.button-tip {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  vertical-align: top;
+}
+
+.button-tip .tooltip {
+  position: absolute;
+}
+
+.table-tip {
+  position: relative;
+}
+
+/* .heading-tip{
+  display: inline-block;
+} */
+
+.players,
+.odds {
+  text-align: center;
+}
+
+.odds,
+.number-input {
+  padding-left: 15px;
+}
+
+.progress-bar {
+  background-color: #25cff2;
+  height: 400px;
+  width: 10px;
+  margin: 50px;
+  border: outset;
+  position: relative;
+  left: 40px;
+}
+
+#progress-bar2 {
+  background-color: #25cff2;
+  height: 200px;
+  width: 10px;
+  left: -2.4px;
+  top: -1.33px;
+  border-style: outset;
+  position: absolute;
+}
+
+#progress-bar3 {
+  background-color: #25cff2;
+  height: 200px;
+  width: 10px;
+  left: -2.4px;
+  top: 198.66px;
+  border-style: outset;
+  position: absolute;
+  /* box-shadow: 0 0 8px 5px rgba(85, 219, 85, 0.678); */
+}
+
+.progress-points li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#point-1 {
+  left: -12.4px;
+  top: -17px;
+  border: rgb(216, 117, 81);
+  border-style: inset;
+  background-color: orange;
+}
+
+#point-2 {
+  left: -12.4px;
+  top: 183px;
+  border-style: outset;
+  background-color: #25cff2;
+}
+
+#point-3 {
+  left: -12.4px;
+  top: 383px;
+  border-style: outset;
+  background-color: #25cff2;
+}
+
+.glow {
+  position: absolute;
+  width: 34.8px;
+  height: 34.8px;
+  border-radius: 50%;
+  top: -2.4px;
+  left: -2.4px;
+  display: none;
+  /* box-shadow: 0 0 10px 10px rgb(255, 222, 161); */
+  /* box-shadow: 0 0 10px 10px rgb(255, 222, 161); */
+}
+
+.labels li {
+  width: 60px;
+  height: 30px;
+  top: 20px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  line-height: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.labels > li:nth-of-type(1) {
+  top: -15px;
+}
+
+.labels > li:nth-of-type(2) {
+  top: 185px;
+}
+
+.labels > li:nth-of-type(3) {
+  top: 385px;
+}
+
+.div-step-1 {
+  display: "";
+}
+.div-step-2 {
+  display: none;
+}
+.div-step-3 {
+  display: none;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #0d6efd;
+  left: 0;
+  top: 46.4px;
+  bottom: 0;
+  width: 11%;
+  min-width: 210px;
+  max-width: 210px;
+  height: 100%;
+  border-right: solid black 3px;
+  z-index: -1;
+  /* border-style: none outset none none; */
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  border-bottom: solid black 3px;
+  background-color: #0d6efd;
+  padding: 10px;
+  height: 90.2px;
+  margin: 0;
+  font-size: 1.6em;
+}
+
+h2 {
+  position: fixed;
+  border-bottom: dashed black 3px;
+  width: 100%;
+  background-color: floralwhite;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 90.2px;
+  z-index: 2;
+  font-size: 1.35em;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+.text-tip h3 {
+  margin: 15px 0;
+}
+
+.h4-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.div-content {
+  padding-top: 125.2px;
+  padding-left: 25px;
+}
+
+.results-tables {
+  display: flex;
+}
+
+.lottery-not-complete,
+.hide-on-submit {
+  color: red;
+}
+
+#players-tip {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+}
+
+#odds-tip {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+#add-player-tip {
+  position: absolute;
+  top: 15px;
+  right: 8px;
+}
+
+#add-lottery-tip {
+  position: absolute;
+  top: 15px;
+  right: 7px;
+}
+
+#reset-results-tip {
+  position: absolute;
+  top: 15px;
+  left: 135px;
+}
+
+#shuffle-combos-tip {
+  position: absolute;
+  top: 7px;
+  left: 110px;
+}
+
+#reset-results {
+  width: 105px;
+  padding: 5px 20px 5px 20px;
+}
+
+#simulate-x {
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 29.367px;
+  height: 30px;
+  width: 75px;
+  font-size: medium;
+}
+
+#simulate-x-warning {
+  position: relative;
+  color: red;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+  bottom: -120px;
+}
+
+#pick-results-table,
+#pick-results-table h4 {
+  display: flex;
+  align-items: center;
+}
+
+#pick-results-label {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#results-table-choose {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.re-roll-row {
+  /* background-color: lightblue; */
+  font-weight: 700;
+}
+
+.re-roll-row td input {
+  font-weight: 700;
+}
+
+.bevan-regular {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+input,
+button {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.assigned-text {
+  text-align: right;
+}
+.unassigned-text {
+  text-align: right;
+}
+
+/* buttons */
+
+/* @media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 176px;
+  }
+} */
+
+.navigation-buttons {
+  position: fixed;
+  z-index: 3;
+  top: 95px;
+  padding-left: 25px;
+  font-size: 0;
+}
+.row-selection {
+  font-size: 0;
+  display: flex;
+}
+.odds-assignment-buttons {
+  font-size: 0;
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.odds-assignment-buttons > input {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Button Testing below this line */
+
+/* #spin-all-button {
+  display: inline-block;
+} */
+
+.spins {
+  display: flex;
+  margin: 0 0 50px 0;
+  z-index: 1;
+}
+.spin-button {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  padding: 0;
+  margin: 1%;
+  border: 0;
+  justify-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+/* .spin-button:after {
+  margin: 20px 0 0 0;
+  position: absolute;
+  width: 64%;
+  height: 12%;
+  left: 18%;
+  border-radius: 50%;
+  z-index: 2;
+  bottom: 0%;
+  content: "";
+  box-shadow: 0px -20px 10px rgb(0, 0, 0);
+} */
+
+.spin-button:disabled {
+  background-color: #0d6dfd8c;
+  color: rgb(0, 0, 0);
+}
+
+.spin-b {
+  height: 100px;
+  display: block;
+  position: absolute;
+  width: 50px;
+  left: 25px;
+  align-content: center;
+  overflow: hidden;
+}
+
+.from-top {
+  top: 0;
+}
+
+.to-bottom {
+  bottom: 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  /* border: inset rgba(236, 29, 29, 0.1); */
+  border: solid rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* background: rgba(236, 29, 29, 0.1); */
+  /* background-color: rgba(248, 227, 186, 0.301); */
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+  background: #f3f3f3;
+}
+
+/* checkbox */
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .checkbox-wrapper-14 input[type="checkbox"] {
+    --active: #0d6efd;
+    --active-inner: #fff;
+    --focus: 2px rgba(39, 94, 254, 0.3);
+    --border: #bbc1e1;
+    --border-hover: #0d6efd;
+    --background: #fff;
+    --disabled: #f6f8ff;
+    --disabled-inner: #e1e6f9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 21px;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid var(--bc, var(--border));
+    background: var(--b, var(--background));
+    transition:
+      background 0.3s,
+      border-color 0.3s,
+      box-shadow 0.2s;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition:
+      transform var(--d-t, 0.3s) var(--d-t-e, ease),
+      opacity var(--d-o, 0.2s);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:checked {
+    --b: var(--active);
+    --bc: var(--active);
+    --d-o: 0.3s;
+    --d-t: 0.6s;
+    --d-t-e: cubic-bezier(0.2, 0.85, 0.32, 1.2);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:disabled {
+    --b: var(--disabled);
+    cursor: not-allowed;
+    opacity: 0.9;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:disabled:checked {
+    --b: var(--disabled-inner);
+    --bc: var(--border);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:disabled + label {
+    cursor: not-allowed;
+  }
+  .checkbox-wrapper-14
+    input[type="checkbox"]:hover:not(:checked):not(:disabled) {
+    --bc: var(--border-hover);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:focus {
+    box-shadow: 0 0 0 var(--focus);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch) {
+    width: 21px;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch):after {
+    opacity: var(--o, 0);
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch):checked {
+    --o: 1;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch) {
+    border-radius: 7px;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch):after {
+    width: 5px;
+    height: 9px;
+    border: 2px solid var(--active-inner);
+    border-top: 0;
+    border-left: 0;
+    left: 7px;
+    top: 4px;
+    transform: rotate(var(--r, 20deg));
+  }
+  .checkbox-wrapper-14 input[type="checkbox"]:not(.switch):checked {
+    --r: 43deg;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"].switch {
+    width: 38px;
+    border-radius: 11px;
+  }
+  .checkbox-wrapper-14 input[type="checkbox"].switch:after {
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background: var(--ab, var(--border));
+    transform: translateX(var(--x, 0));
+  }
+  .checkbox-wrapper-14 input[type="checkbox"].switch:checked {
+    --ab: var(--active-inner);
+    --x: 17px;
+  }
+  .checkbox-wrapper-14
+    input[type="checkbox"].switch:disabled:not(:checked):after {
+    opacity: 0.6;
+  }
+}
+
+.checkbox-wrapper-14 * {
+  box-sizing: inherit;
+}
+.checkbox-wrapper-14 *:before,
+.checkbox-wrapper-14 *:after {
+  box-sizing: inherit;
+}
+
+/* radio */
+.radio-inputs-19 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* border-radius: 0.5rem; */
+  background-color: transparent;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 170px;
+  font-size: 16px;
+  border: solid rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+}
+
+.radio-inputs-19 label {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs-19 label input {
+  display: none;
+}
+
+.radio-inputs-19 label .radio-label {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0;
+  color: black;
+  transition: all 0.15s ease-in-out;
+}
+
+.radio-inputs-19 label input:checked + .radio-label {
+  background-color: #0d6efd;
+  font-weight: 600;
+  color: white;
+}
+
+/* popups */
+.popup {
+  width: 80%;
+  height: 85%;
+  background: rgb(250, 236, 208);
+  border: solid 5px black;
+  border-radius: 15px;
+  box-shadow:
+    10px 10px 20px rgba(0, 0, 0, 0.4),
+    20px 20px 40px rgba(0, 0, 0, 0.1),
+    -10px 10px 20px rgba(0, 0, 0, 0.4),
+    -20px 20px 40px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  display: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  display: block;
+  width: 100%;
+  height: 90%;
+}
+
+.popup p {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -45%);
+  width: 80%;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  z-index: 4;
+}
+
+.popup span {
+  position: absolute;
+  width: 75%;
+  text-align: center;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -100%);
+  color: black;
+  font-size: 2em;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+.trophy {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -45%);
+  z-index: 1;
+}
+
+/* dropdown */
+/* select {
+  border: solid rgba(0, 0, 0, 0.04);
+  padding: 5px 5px;
+  border-radius: 15px;
+  background-color: transparent;
+  transition: 0.4s;
+} */
+
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid rgba(0, 0, 0, 0.04);
+  background-color: transparent;
+  padding: 5px;
+  transition: 0.4s;
+  width: 110px;
+  height: 30px;
+}
+
+select:hover,
+select:focus {
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+select::picker-icon {
+  color: #999999;
+  transition: 0.4s rotate;
+  rotate: 180deg;
+}
+
+select:open::picker-icon {
+  rotate: 0deg;
+}
+
+::picker(select) {
+  border: none;
+}
+
+option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  border: 2px solid #dddddd;
+  background: #f3f3f3;
+  padding: 5px;
+  transition: 0.4s;
+}
+
+option:first-of-type {
+  border-radius: 8px 8px 0 0;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+::picker(select) {
+  border-radius: 8px;
+}
+
+option:not(option:last-of-type) {
+  border-bottom: none;
+}
+
+option:nth-of-type(odd) {
+  background: white;
+}
+
+option:hover,
+option:focus {
+  background: #0d6efd;
+  color: #ffffff;
+}
+
+option .icon {
+  font-size: 1.6rem;
+  text-box: trim-both cap alphabetic;
+}
+
+.radio-disabled {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.combo-tables {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.odds-table-1 tr th:nth-child(1) {
+  width: 78px;
+}
+
+.odds-table-1 tr th:nth-child(2) {
+  width: 221px;
+}
+
+.odds-table-1 tr th:nth-child(3) {
+  width: 82px;
+}
+
+.odds-form {
+  /* display: flex; */
+  position: relative;
+  min-width: 441px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.players {
+  width: 200px;
+}
+
+.odds-table-x tr th:nth-child(1) {
+  width: 319px;
+}
+
+.odds-table-x tr th:nth-child(2) {
+  width: 82px;
+}
+
+.styled-table tr th:nth-child(1) {
+  height: 40px;
+}
+
+.combo-tables .styled-table tr th:nth-child(1) {
+  height: 0px;
+}
+
+.combo-tables .styled-table tr:nth-child(2) th:nth-child(1) {
+  width: 75px;
+}
+.combo-tables .styled-table tr:nth-child(2) th:nth-child(2) {
+  width: 200px;
+}
+
+.results-table-x tr th:nth-child(1) {
+  width: 250px;
+}
+.results-table-x tr th:nth-child(2) {
+  width: 115px;
+}
+.results-table-x tr th:nth-child(3) {
+  width: 115px;
+}
+.results-table-x tr th:nth-child(4) {
+  width: 115px;
+}
+.results-table-x tr th:nth-child(5) {
+  width: 115px;
+}
+.results-table-x tr th:nth-child(6) {
+  width: 50px;
+}
+.results-table-x tr th:nth-child(7) {
+  width: 100px;
+}
+
+.odds-chart {
+  width: 100%;
+  /* height: 300px; */
+}
+
+.results-table-div {
+  position: relative;
+}
+
+.results-chart {
+  width: 100%;
+  height: 400px;
+}
+
+.final-results-table-1 {
+  margin-bottom: 30px;
+  box-shadow:
+    -5px 5px 10px rgba(252, 235, 0, 0.6),
+    5px 0px 10px rgba(252, 235, 0, 0.6),
+    -10px 15px 40px rgba(252, 235, 0, 0.3),
+    10px 0px 40px rgba(252, 235, 0, 0.3);
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+.text-tip {
+  display: flex;
+}
+
+.re-roll-select .tooltip {
+  margin: 0 10px 2px 2px;
+}
+
+.line-spacing-a {
+  margin: 15px 0 30px 0;
+}
+
+.line-spacing-b {
+  margin: 15px 0 10px 0;
+  justify-content: center;
+}
+
+#spin-button-options {
+  display: flex;
+}
+
+/* #simulate-x-spins {
+  display: flex;
+} */
+
+/* #simulate-spin {
+  display: flex;
+} */
+
+/* #start-spinning {
+  display: flex;
+} */
+
+#spin-all-message {
+  color: red;
+  vertical-align: middle;
+  width: 274.267px;
+  margin: 0 10px;
+}
+
+#spin-button-properties {
+  display: flex;
+  margin: 10px 0 0 0;
+  align-items: center;
+}
+
+#sim-x-input {
+  display: flex;
+  align-items: center;
+}
+
+#spin-setup {
+  display: flex;
+}
+
+.spin-method-buttons {
+  margin: 0 0 0 50px;
+}
+
+/* #sim-x-warning {
+  height: 25px;
+  margin-top: 50px;
+} */
+
+#reset-spins-div {
+  margin: 0 0 30px 0;
+}
+
+.winner-name {
+  font-size: larger;
+  margin: 0 20px;
+  /* border: 5px solid black; */
+  box-shadow:
+    -5px -5px 10px rgba(29, 252, 0, 0.6),
+    5px 5px 10px rgba(29, 252, 0, 0.6),
+    -10px -10px 40px rgba(29, 252, 0, 0.3),
+    10px 10px 40px rgba(29, 252, 0, 0.3);
+}
+
+#pick-number {
+  font-size: larger;
+}
+
+.spin-div {
+  margin: 0 20px 0 0;
+  /* display: flex; */
+}
+
+.ball-shadow {
+  position: relative;
+  width: 64%;
+  height: 12%;
+  left: 18%;
+  border-radius: 50%;
+  z-index: 1;
+  bottom: 15%;
+  content: "";
+  box-shadow: 0px 25px 10px 0px rgb(0, 0, 0);
+}
+
+.submit-odds {
+  display: flex;
+}
+
+.warning {
+  margin: 0 0 0 15px;
+}
