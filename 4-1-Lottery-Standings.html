@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery Official</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="general-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar"></div>
+    <div class="page">
+      <div id="final-standings">
+        <h1 class="bevan-regular">Draft Lottery Standings</h1>
+        <p class="table-caption-2">
+          Post Deadline Rotisserie Standings:<span
+            id="lottery-standings"
+          ></span>
+        </p>
+        <table class="styled-table normal-table" id="lottery-standings-table">
+          <thead class="heading-table">
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Goals</th>
+              <th>Assists</th>
+              <th>Points</th>
+              <th>+/-</th>
+              <th>PPP</th>
+              <th>SOG</th>
+              <th>HIT</th>
+              <th>BLK</th>
+              <th>Wins</th>
+              <th>GAA</th>
+              <th>SV%</th>
+              <th>SO</th>
+              <th>Total Points</th>
+            </tr>
+          </thead>
+          <tbody id="lottery-standings-data"></tbody>
+        </table>
+      </div>
+      <div id="detailed-stats">
+        <button class="collapsible button-65" id="collapse-button">
+          Show Detailed Lottery Stats
+        </button>
+        <div class="collapsed-stats" style="display: none">
+          <p class="table-caption-2">
+            Post Deadline Rotisserie Stats:<span id="lottery-stats"></span>
+          </p>
+          <table class="styled-table normal-table" id="lottery-stats-table">
+            <thead class="heading-table">
+              <tr>
+                <th>Name</th>
+                <th>Skater GP</th>
+                <th>Goalie GP</th>
+                <th>Total GP</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>+/-</th>
+                <th>PPP</th>
+                <th>SOG</th>
+                <th>HIT</th>
+                <th>BLK</th>
+                <th>Wins</th>
+                <th>SA</th>
+                <th>GA</th>
+                <th>Mins</th>
+                <th>GAA</th>
+                <th>SV%</th>
+                <th>SO</th>
+              </tr>
+            </thead>
+            <tbody id="lottery-stats-data"></tbody>
+          </table>
+          <p class="table-caption-2">
+            Deadline Rotisserie Stats:<span id="deadline-stats"></span>
+          </p>
+          <table class="styled-table normal-table" id="deadline-stats-table">
+            <thead class="heading-table">
+              <tr>
+                <th>Name</th>
+                <th>Skater GP</th>
+                <th>Goalie GP</th>
+                <th>Total GP</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>+/-</th>
+                <th>PPP</th>
+                <th>SOG</th>
+                <th>HIT</th>
+                <th>BLK</th>
+                <th>Wins</th>
+                <th>SA</th>
+                <th>GA</th>
+                <th>Mins</th>
+                <th>GAA</th>
+                <th>SV%</th>
+                <th>SO</th>
+              </tr>
+            </thead>
+            <tbody id="deadline-stats-data"></tbody>
+          </table>
+          <p class="table-caption-2">
+            End of Season Rotisserie Stats:<span id="final-stats"></span>
+          </p>
+          <table class="styled-table normal-table" id="final-stats-table">
+            <thead class="heading-table">
+              <tr>
+                <th>Name</th>
+                <th>Skater GP</th>
+                <th>Goalie GP</th>
+                <th>Total GP</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>+/-</th>
+                <th>PPP</th>
+                <th>SOG</th>
+                <th>HIT</th>
+                <th>BLK</th>
+                <th>Wins</th>
+                <th>SA</th>
+                <th>GA</th>
+                <th>Mins</th>
+                <th>GAA</th>
+                <th>SV%</th>
+                <th>SO</th>
+              </tr>
+            </thead>
+            <tbody id="final-stats-data"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="lottery-standings.js" charset="utf-8"></script>
+</html>
